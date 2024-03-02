@@ -22,7 +22,7 @@ export function Part5(){
                   <span> !Marlene</span>
                 </div>
                 <div className='img_contact'>
-                  <img src="/public/images/Vector.svg" />
+                  <img src="/public/Vector.svg" />
                   <span>marjeru@</span>
                 </div>
               </div>
