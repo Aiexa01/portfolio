@@ -1,0 +1,52 @@
+.centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .text_color {
+    color: #C778DD;
+  }  
+  .titles {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 50px;
+  }
+  .titles>span{
+    position: absolute;
+   background-color: #282C33;
+   right: 0;
+  
+  }
+  
+  .titles span:nth-child(1){
+    top:0px;
+    left: 0px;
+    width: fit-content;
+    padding-right: 10px;
+    font-size: 32px;
+    font-family: Fira Code;
+  }
+  .linea_horizontal {
+    width: 80%;
+    border: 1px solid #C778DD;
+  
+    margin: auto 0;
+  }
+  .card_buttonb1 {
+    font-size: 16px;
+    font-family: Fira Code;
+    border: 2px solid;
+    background-color: #282C33;
+    color: gray;
+    padding: 8px;
+  }
+  .card_buttonb1:hover {
+    font-size: 16px;
+    font-family: Fira Code;
+    border-color: #C778DD;
+    background-color: #282C33;
+    color: white;
+   
+  }
+  

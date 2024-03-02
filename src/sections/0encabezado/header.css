@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding:0px 250px ;
+    
+  }
+  .logo_name {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+  
+  }
+  
+  .header_name {
+    font-family: Fira Code;
+    font-size: 16px;
+    font-weight: bold;
+  }  
+  .a_link {
+    display: flex;
+    gap: 20px;
+    font-family: Fira Code;
+    font-size: 16px;
+  }
+  .option_select{
+    border: none;
+    background-color: #282C33;
+    font-family: Fira Code;
+    font-weight: 600;
+    color: gray;
+  }

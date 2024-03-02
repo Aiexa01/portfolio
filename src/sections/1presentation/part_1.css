@@ -1,0 +1,117 @@
+.part_1 {
+    display: flex;
+    font-size: 32px;
+    flex-direction: row;
+    gap: 200px;
+  }
+  .presentation {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  
+  }
+  
+  .tittle_1 {
+    font-family: Fira Code;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .subtitle_1 {
+    font-family: Fira Code;
+    font-size: 16px;
+  }
+  .button_contact {
+    display: flex;
+    height: 50px;
+    width: 180px;
+    border-color: #C778DD;
+    background-color: #282C33
+  }
+  
+  .button_text {
+    font-family: Fira Code;
+    font-size: 15px;
+  
+  }
+  
+  .image_presentation {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  
+  .image_1 {
+    height: 346px;
+    width: 457px;
+  }
+  
+  .rectangle_text {
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .rectangle_1 {
+    width: 16px;
+    height: 16px;
+  }
+  .subtitle_2 {
+    font-size: 16px;
+  }
+  .phrase1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    margin:auto;
+    /*que es para centrar*/
+  }
+  
+  .comillas_1 {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background-color: #282C33;
+  }
+  
+  .comillas_2 {
+    position: absolute;
+    background-color: #282C33;
+    text-align: center;
+    bottom: -10px;
+    right: 10px;
+  }
+  
+  .title-text1 {
+    border: 1px solid white;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    position: relative;
+    font-family: Fira Code;
+    font-weight: 600;
+  
+  }
+
+  .title-text2 {
+
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    font-family: Fira Code;
+  }
+  
+  .title-text2 span {
+    padding: 15px;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+  }
+  

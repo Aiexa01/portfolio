@@ -1,0 +1,64 @@
+
+footer{
+    border-top: 1px solid white;
+    padding:32px 250px ;
+    display:flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+  .name_media{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+  .media{
+  
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+  }
+  .media_title{
+    font-family: Fira Code;
+    font-weight: 500;
+    font-size: 24px;
+    
+  }
+  .logo_name_footer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  
+  }
+  .logo_name_footer span{
+    font-family: Fira Code;
+    font-weight: 500 ;
+  }
+  .logo_name_footer span:nth-child(3){
+    font-family: Fira Code;
+    color: gray;
+    font-weight: 400;
+    margin-left: 10px;
+  }
+  .description_footer{
+    font-family: Fira Code;
+  }
+  .name_description{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .copyright{
+    color: gray;
+    font-family: Fira Code;
+    display: flex;
+    
+  
+  }
+  .icons_footer{
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+   
+  }
