@@ -1,5 +1,5 @@
 import '../comun.css'
-import './footer.css'
+import './Footer.css'
 export function Footer(){
     return(
         <footer>

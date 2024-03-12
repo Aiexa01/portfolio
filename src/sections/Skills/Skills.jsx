@@ -1,6 +1,6 @@
 import '../comun.css'
-import'./part_3.css'
-export function Part3(){
+import'./Skills.css'
+export function Skills(){
     return(
         <section className='part3'>
         <div className='titles'>

@@ -1,8 +1,8 @@
 import '../comun.css'
-import'./part_2.css'
-export function Part2(){
+import'./Projects.css'
+export function Projects(){
     return(
-
+        
         <section className='part_2'>
           <div className='titles'>
             <span> <span className='text_color'>#</span>projects</span>

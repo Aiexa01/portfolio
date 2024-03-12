@@ -1,6 +1,6 @@
 import '../comun.css'
-import'./part_1.css'
-export function Part1() {
+import'./Presentation.css'
+export function Projects() {
     return (<>        
     <section className='part_1 '>
         <div className='presentation '>

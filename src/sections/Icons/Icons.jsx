@@ -1,5 +1,5 @@
 import '../comun.css'
-import './icons.css'
+import './Icons.css'
 export function Icons() {
   return (
     <div className='icons_linea'>
