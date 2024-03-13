@@ -3,10 +3,11 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import './comun.css'
-import { Footer } from './sections/Footer'
+
 import { Header } from './sections/Header'
 import { Icons } from './sections/Icons'
 import { Bodycontainer } from './Bodycontainer'
+import { PiedePag } from './sections/PiedePag'
 
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
       <Icons></Icons>
       <Header></Header>
       <Bodycontainer></Bodycontainer>
-      <Footer></Footer>
+      <PiedePag></PiedePag>
       {/* 1 _ quitar los numeros 
           2 poner mayusculas a los titulos
           3 _ hacer lo mismo del header con todos los archivos

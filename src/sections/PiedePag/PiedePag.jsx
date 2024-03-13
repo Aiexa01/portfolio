@@ -1,6 +1,6 @@
 
-import './Footer.css'
-export function Footer(){
+import './PiedePag.css'
+export function PiedePag(){
     return(
         <footer>
         <div className='name_media'>
