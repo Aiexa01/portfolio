@@ -1,4 +1,4 @@
-import '../comun.css'
+
 import'./Projects.css'
 export function Projects(){
     return(
@@ -13,7 +13,7 @@ export function Projects(){
           <div className='part2_card'>
             <div className='card' >
               <div className='card_image'>
-                <img src="/public/images/chertnodes.svg" />
+                <img src="/images/chertnodes.svg" />
               </div>
               <div className='card_subtitle'>
                 <span>HTML</span>
@@ -33,7 +33,7 @@ export function Projects(){
             </div>
             <div className='card' >
               <div className='card_image'>
-                <img src="/public/images/protectx.svg" />
+                <img src="/images/protectx.svg" />
               </div>
               <div className='card_subtitle'>
                 <span>React</span>
@@ -55,7 +55,7 @@ export function Projects(){
             </div>
             <div className='card' >
               <div className='card_image'>
-                <img src="/public/images/kahoot.svg" />
+                <img src="/images/kahoot.svg" />
               </div>
               <div className='card_subtitle'>
                 <span>CSS</span>

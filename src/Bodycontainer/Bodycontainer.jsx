@@ -1,11 +1,10 @@
 
-import '../comun.css'
+import { AboutMe } from './AboutMe'
 import './Bodycontainer.css'
-import { Presentation} from './sections/Presentation'
-import { Projects } from './sections/Projects'
-import { Skills } from './sections/Skills'
-import { About_me } from './sections/About_me'
-import { Contacts } from './sections/Contacts'
+import { Contacts } from './Contacts/Contacts'
+import { Presentation } from './Presentation/Presentation'
+import { Projects } from './Projects/Projects'
+import { Skills } from './Skills/Skills'
 
 export function Bodycontainer(){
 return(
@@ -13,7 +12,7 @@ return(
             <Presentation></Presentation>
             <Projects></Projects>
             <Skills></Skills>
-            <About_me></About_me>
+            <AboutMe></AboutMe>
             <Contacts></Contacts>
     </div>
 )

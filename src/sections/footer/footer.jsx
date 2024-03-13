@@ -1,4 +1,4 @@
-import '../comun.css'
+
 import './Footer.css'
 export function Footer(){
     return(
@@ -6,7 +6,7 @@ export function Footer(){
         <div className='name_media'>
           <div className='name_description'>
             <div className='logo_name_footer'> 
-              <img src="./public/images/union.svg"/>
+              <img src="./images/union.svg"/>
               <span> Marlene</span>
               <span>marjeru_1@hotmail.com</span>
 
@@ -20,9 +20,9 @@ export function Footer(){
               Media
             </div>
             <div className='icons_footer'>
-              <img src="./public/images/Github.svg"/>
-              <img src="./public/images/Figma.svg"/>
-              <img src="./public/images/Discord.svg"/>
+              <img src="./images/Github.svg"/>
+              <img src="./images/Figma.svg"/>
+              <img src="./images/Discord.svg"/>
             </div>
 
           </div>

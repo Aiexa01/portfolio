@@ -1,6 +1,6 @@
-import '../comun.css'
+
 import'./Presentation.css'
-export function Projects() {
+export function Presentation() {
     return (<>        
     <section className='part_1 '>
         <div className='presentation '>
@@ -16,10 +16,10 @@ export function Projects() {
 
         <div className='image_presentation'>
             <div className='image_1'>
-                <img src='/public/images/Group 46.svg' />
+                <img src='/images/Group 46.svg' />
             </div>
             <div className='rectangle_text'>
-                <img src='/public/images/Rectangle 27.svg' className='rectangle_1' />
+                <img src='/images/Rectangle 27.svg' className='rectangle_1' />
                 <span className='subtitle_2'>Currently working on Portfolio</span>
             </div>
         </div>
@@ -27,9 +27,9 @@ export function Projects() {
         <section className='phrase1'>
 
             <div className="title-text1">
-                <img src='/public/images/comillas.svg' className='comillas_1' />
+                <img src='/images/comillas.svg' className='comillas_1' />
                 <span>With great power comes great electricity bill </span>
-                <img src='/public/images/comillas.svg' className='comillas_2' />
+                <img src='/images/comillas.svg' className='comillas_2' />
             </div>
 
             <div className="title-text2">

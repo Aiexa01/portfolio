@@ -1,6 +1,6 @@
-import '../comun.css'
-import './About_me.css'
-export function About_me(){
+
+import './AboutMe.css'
+export function AboutMe(){
     return(
         <section className='part_4'>
           <div className='titles'>
@@ -30,7 +30,7 @@ export function About_me(){
               </div>
             </div>
             <div className='image'>
-              <img src="/public/images/Group50.svg" />
+              <img src="/images/Group50.svg" />
             </div>
           </div>
         </section>

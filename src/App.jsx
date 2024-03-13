@@ -2,11 +2,11 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-
+import './comun.css'
 import { Footer } from './sections/Footer'
 import { Header } from './sections/Header'
 import { Icons } from './sections/Icons'
-import { Bodycontainer } from './Bodycontainer/Bodycontainer'
+import { Bodycontainer } from './Bodycontainer'
 
 
 function App() {

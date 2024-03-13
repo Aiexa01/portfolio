@@ -1,4 +1,4 @@
-import '../comun.css'
+
 import './Contacts.css'
 export function Contacts(){
     return(
@@ -18,11 +18,11 @@ export function Contacts(){
               <div className='contact_title'>Message me here</div>
               <div className='contact_list center'>
                 <div className='img_contact'>
-                  <img src="/public/images/Discord.svg" />
+                  <img src="/images/Discord.svg" />
                   <span> !Marlene</span>
                 </div>
                 <div className='img_contact'>
-                  <img src="/public/Vector.svg" />
+                  <img src="/Vector.svg" />
                   <span>marjeru@</span>
                 </div>
               </div>

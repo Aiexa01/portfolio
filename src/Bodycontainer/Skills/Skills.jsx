@@ -1,4 +1,4 @@
-import '../comun.css'
+
 import'./Skills.css'
 export function Skills(){
     return(
@@ -9,7 +9,7 @@ export function Skills(){
         </div>
         <div className='images_block'>
           <div className='images'>
-            <img src="/public/images/Group 36.svg" />
+            <img src="/images/Group 36.svg" />
           </div>
           <div className='conjunto_block'>
             <div className='block_list'>

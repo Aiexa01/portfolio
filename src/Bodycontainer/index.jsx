@@ -1,1 +1,1 @@
-export * from '/Bodycontainer.jsx'
+export * from './Bodycontainer'

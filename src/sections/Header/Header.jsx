@@ -1,11 +1,11 @@
-import '../comun.css'
+
 import './Header.css'
 
 export function Header(){
     return(
         <header>
             <div className='logo_name'>
-              <img src='/public/images/Union.svg' />
+              <img src='/images/Union.svg' />
               <span className='header_name'>Marlene</span>
             </div>
             <div className='a_link'>
