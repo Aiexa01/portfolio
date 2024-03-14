@@ -4,4 +4,20 @@
     flex-direction: column;
     gap:50px;
   }
+  @media screen and (max-width:1250px){
+    .body-container{
+    padding: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+  }
+  @media screen and (max-width:600px){
   
+    .body-container{
+      padding: 0px 0px;
+      display:flex;
+      flex-direction: column;
+      
+  }
+}

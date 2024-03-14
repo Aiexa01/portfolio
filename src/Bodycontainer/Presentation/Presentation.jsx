@@ -20,7 +20,10 @@ export function Presentation() {
             </div>
             <div className='rectangle_text'>
                 <img src='/images/Rectangle 27.svg' className='rectangle_1' />
-                <span className='subtitle_2'>Currently working on Portfolio</span>
+                <div className='subtitle_2'> 
+                    <span>Currently working on </span>
+                    <span className='colorwhite'> Portfolio</span>
+                </div>
             </div>
         </div>
     </section>

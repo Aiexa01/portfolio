@@ -1,18 +1,27 @@
 header {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    padding:0px 250px ;
-    
-  }
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding:0px 250px ;
+  
+}
   .logo_name {
     display: flex;
     flex-direction: row;
     gap: 10px;
+    align-items: center;
 
   
   }
-  
+  .menu{
+    display: flex;
+
+  }
+  .menu img{
+    display: flex;
+    visibility:hidden;
+    
+  }
   .header_name {
     font-family: Fira Code;
     font-size: 16px;
@@ -31,3 +40,41 @@ header {
     font-weight: 600;
     color: gray;
   }
+  @media screen and (max-width:1250px) {
+    header {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+      padding:0px 20px ;
+      
+    }
+
+
+
+  }
+  @media screen and (max-width:600px) {
+    header {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+      padding:0px 20px ;
+      
+    }
+    .menu img{
+      visibility: visible;
+      cursor: pointer;
+    }
+    .logo_name {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      align-items: center;
+    
+    }
+    .option_select{
+      display: none;
+    }
+    .a_link {
+      display: none;
+  }
+}

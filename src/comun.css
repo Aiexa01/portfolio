@@ -33,13 +33,16 @@
   
     margin: auto 0;
   }
+  .card_button{
+    padding: 10px;
+  }
   .card_buttonb1 {
     font-size: 16px;
     font-family: Fira Code;
     border: 2px solid;
     background-color: #282C33;
     color: gray;
-    padding: 8px;
+    padding: 5px;
   }
   .card_buttonb1:hover {
     font-size: 16px;

@@ -1,6 +1,6 @@
 .part_2 {
     display: flex;
-   
+    width: 100%;
     flex-direction: column;
     gap: 60px;
   }
@@ -45,7 +45,7 @@
   }
   
   .card_body {
-    padding: 10px 20px 20px;
+    padding: 10px 15px;
     display: flex;
     flex-direction: column;
     gap:15px;
@@ -67,8 +67,33 @@
   .card_button {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    justify-content: space-between;
+    gap:1px
   
   }
-  
  
+
+  @media screen and (max-width:1080px){
+    
+  .card_body {
+    padding: 5px 10px 5px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    /* primero arriba, segundo a la derecha , tercero abajo y cuarto a la izq  (si pongo dos el primero es top y bot )*/
+  }
+    .card_button {
+      display: flex;
+      flex-direction: row;
+      gap: 5px;
+    
+    }
+    .card_title {
+      font-size: 20px;;
+    }
+  }
+  @media screen and (max-width:600px){
+    .part_2 {
+      display: none;
+    }
+  }

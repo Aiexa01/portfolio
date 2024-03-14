@@ -2,13 +2,14 @@
     display: flex;
     font-size: 32px;
     flex-direction: row;
-    gap: 200px;
+    padding: 10px;
+   justify-content: space-around;
   }
   .presentation {
     display: flex;
     flex-direction: column;
     gap: 25px;
-  
+    padding-right: 15px;
   }
   
   .tittle_1 {
@@ -21,6 +22,7 @@
   .subtitle_1 {
     font-family: Fira Code;
     font-size: 16px;
+    color: gray;
   }
   .button_contact {
     display: flex;
@@ -61,8 +63,14 @@
   }
   .subtitle_2 {
     font-size: 16px;
+    font-family: Fira Code;
+    color: gray;
   }
-  .phrase1 {
+  .colorwhite{
+    color:white;
+    font-weight: 600;
+  }
+    .phrase1 {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -114,4 +122,75 @@
     border-left: 1px solid white;
     border-right: 1px solid white;
   }
+  @media screen and (max-width:1250px) {
+    .part_1 {
+      display: flex;
+      font-size: 32px;
+      flex-direction: row;
+      gap:0px}
+      .image_1{
+        height: 260px;
+        width: 316px;
+       
+      }
+      .image_1 img{
+        height: 260px;
+        width: 316px;
+      }
+  }
+  @media screen and (max-width:1000px){
+    .part_1{
+      display: flex;
+      justify-content: space-between;
+      gap:1px;
+    }
+  }
+  @media screen and (max-width:600px){
+    .presentation{
+      display: flex;
+      flex-direction: column;
+      gap:40px
+    }
+    .image_presentation {
+      display: flex;
+      justify-content: center;
+      gap: 0px;
+      align-items: center;
+
+    }
+    .part_1 {
+      display: flex;
+      font-size: 32px;
+      flex-direction: column;
+      gap:40px
+  }
+  .tittle_1 span{
+    font-size: 30px;
+  }
+  .subtitle_1 {
+    font-size: 17px;
+    
+  }
+  .button_contact {
+    display: none;
+  }
+  .image_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 260px;
+    width: 316px;
+   
+  }
+ 
+  .rectangle_text {
+    border: 1px solid gray;
+    padding: 10px 15px;
+    padding-right: 48px;
+  }
+  .phrase1 {
+    display: none;
+    /*que es para centrar*/
+  }
   
+}

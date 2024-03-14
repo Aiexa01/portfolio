@@ -8,6 +8,7 @@ import { Header } from './sections/Header'
 import { Icons } from './sections/Icons'
 import { Bodycontainer } from './Bodycontainer'
 import { PiedePag } from './sections/PiedePag'
+import { Ejemplo } from './Ejemplo/Usuarios'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <div id='container'>
       <Icons></Icons>
       <Header></Header>
+      {/* <Ejemplo></Ejemplo> */}
       <Bodycontainer></Bodycontainer>
       <PiedePag></PiedePag>
       {/* 1 _ quitar los numeros 

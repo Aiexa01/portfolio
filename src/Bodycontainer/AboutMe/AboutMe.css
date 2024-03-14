@@ -1,6 +1,6 @@
 .part_4{
     display: flex;
-   
+    width: 100%;
     flex-direction: column;
     gap: 60px;
   }
@@ -10,13 +10,15 @@
   .about_image {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 100px;
+
     
   }
   .about_description{
     display: flex;
     flex-direction: column;
+    padding:10px;
     gap:15px;
   
   }
@@ -29,9 +31,24 @@
     color: gray;
     font-family: Fira Code;
     font-size: 16px;
+    
   }
   .description span:hover{
     color:white;
     font-family: Fira Code;
     font-size: 16px;
+  }
+  @media screen and (max-width:1250px){
+   .about_image{
+    gap:10px;
+   }
+   .image{
+    margin-top: -50px;
+  }
+
+  }
+  @media screen and (max-width:600px){
+    .part_4 {
+      display: none;
+    }
   }

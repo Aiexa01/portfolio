@@ -18,3 +18,15 @@
     flex-direction: column;
     position: fixed;
   }
+  @media screen and (max-width:1250px) {
+    .icons {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width:600px){
+
+    .icons {
+      display: none;
+    }
+  }

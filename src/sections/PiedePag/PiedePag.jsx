@@ -6,7 +6,7 @@ export function PiedePag(){
         <div className='name_media'>
           <div className='name_description'>
             <div className='logo_name_footer'> 
-              <img src="./images/union.svg"/>
+              <img src="./images/Union.svg"/>
               <span> Marlene</span>
               <span>marjeru_1@hotmail.com</span>
 
