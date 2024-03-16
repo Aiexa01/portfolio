@@ -17,7 +17,7 @@ function App() {
   return (
     <div id='container'>
       <Icons></Icons>
-      <Header></Header>
+      <Header title='Marlene' subtitle='Subtitulo' numeral='#' links={['home', 'works', 'aboutme','contacts']}></Header>
       {/* <Ejemplo></Ejemplo> */}
       <Bodycontainer></Bodycontainer>
       <PiedePag></PiedePag>

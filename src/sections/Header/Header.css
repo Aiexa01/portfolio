@@ -1,9 +1,13 @@
 header {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+  height: 50px;
   padding:0px 250px ;
-  
+  position: sticky;
+  top: 0;
+  background-color: #282C33;
+  align-items: center;
+  z-index: 1;
 }
   .logo_name {
     display: flex;
